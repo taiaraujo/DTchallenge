@@ -4,17 +4,19 @@
     font-family: PROXIMA NOVA RG;
     src: url('/font/proximanova-regular.otf');
 }
-	
+
 
 body{
+    min-width: 100vh;
     font-family: 'Varela Round', sans-serif;
     font: 20px;
 }
 
-h2{
-    font-family: 'Varela Round', sans-serif;
-    font: 32px;
-    color: #f34c51;
+#title p{
+    font-family: 20px, PROXIMA NOVA RG, bold, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -79,4 +81,59 @@ p{
     padding-top: 20px;
     width: 350px;
     height: 370px;
+}
+
+.tweet{
+    text-decoration: none;
+}
+
+.tweet:hover{
+    transition: 5ms;
+    color:#f34c51;
+}
+
+.img_div{
+    transition: 1s;
+    filter: brightness(0.75);
+}
+
+.img_div:hover{
+    transition: 500ms;
+    filter: brightness(1.0);
+}
+
+nav { 
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+    background-image: url(./img/cwd-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title{
+    margin-top: 20px;
+    margin-bottom:10%;
+}
+
+nav ul{ 
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+nav ul *{ 
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+nav ul a{
+   margin-top: 20px;
+}
+
+.nav-text{
+    font-weight: 700;
+}
+.nav-text:hover{
+    color: white;
 }
