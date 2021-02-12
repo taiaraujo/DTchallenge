@@ -139,6 +139,10 @@ nav ul a{
     color: white;
 }
 
+.text-lg-start{
+  color: white;
+}
+
 /* LOADING ANIMATION https://loading.io/css/ */
 #loading-icon {
     margin: 20%;

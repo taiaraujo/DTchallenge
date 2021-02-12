@@ -24,6 +24,7 @@ axios.get(
             div.classList.add('col-lg-4')
             a.setAttribute("href", tweetUrl)
             a.setAttribute("class", "tweet")
+            a.setAttribute("target", "_blank")
 
             conteudo.appendChild(div)
             div.appendChild(a);
