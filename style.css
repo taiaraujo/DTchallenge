@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@font-face {
+    font-family: PROXIMA NOVA RG;
+    src: url('/font/proximanova-regular.otf');
+}
+	
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    font: 20px;
+}
+
+h2{
+    font-family: 'Varela Round', sans-serif;
+    font: 32px;
+    color: #f34c51;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h6{
+    text-align: justify;
+    font: 10px, bold, PROXIMA NOVA RG, sans-serif;
+    color: #424242c9;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p{
+    text-align: justify;
+    font: 28px, "Varela Round", bold, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    background-color: #000000B3;
+    color: #FFFFFFB3;
+    font-family: 14px, PROXIMA NOVA RG, bold, sans-serif;
+    padding-top: 14px;
+    padding-bottom: 80px;
+}
+
+.nav-text{
+    color: #FFFFFFB3;
+    font-family: 20px, PROXIMA NOVA RG, bold, sans-serif;
+    padding-top: 150px;
+}
+
+.cabecalho{
+    padding: 30px, 0px;
+}
+
+.sobre{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.margin{
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.bg-footer{
+    background-color:black;
+    color: white;
+}
+
+.img_div{
+    padding-top: 20px;
+    width: 350px;
+    height: 370px;
+}

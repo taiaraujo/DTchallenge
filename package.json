@@ -1,0 +1,22 @@
+{
+  "name": "cwd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0-beta2",
+    "http-server": "^0.12.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-axios": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
